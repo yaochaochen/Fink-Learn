@@ -8,7 +8,7 @@ $ mvn archetype:generate                               \
       -DarchetypeVersion=1.8.0
 ### Inspect Project
 tree quickstart/
-quickstart/
+"""quickstart/
 ├── pom.xml
 └── src
     └── main
@@ -19,7 +19,7 @@ quickstart/
         │               ├── BatchJob.java
         │               └── StreamingJob.java
         └── resources
-            └── log4j.properties      
+            └── log4j.properties"""      
       
 ## Scala
 ### Flink1.8 Of Scala Build Project
